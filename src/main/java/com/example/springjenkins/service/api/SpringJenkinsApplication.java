@@ -16,6 +16,7 @@ public static	Logger logger=LoggerFactory.getLogger(SpringJenkinsApplication.cla
     }
 	public static void main(String[] args) {
 		logger.info("Application Executed...");
+		logger.info("Application Executed.Second log statement..");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
